@@ -1,15 +1,20 @@
-#include <stdio.h>
+#include <iostream>
 /**
- * main-main function
- *
- * Return: 0 on success
+ * main - A program that prints the size of various computer types
+ * Return: 0 (Success)
  */
 int main(void)
 {
-printf("size of a char: %lu byte(s)", sizeof(char));
-printf("size of int: %lu byte(s)", sizeof(int));
-printf("size of a long int: %lu byte(s)", sizeof(long int));
-printf("size of long long int: %lu byte(s)", sizeof(long long int));
-print("size of a float: %lu byte(s)", sizeof(float));
-return (0);
+char a;
+int b;
+long int c;
+long long int d;
+float f;
+
+printf("size of a char: %lu byte(s)\n", (unsigned long) sizeof(a));
+printf("size of an int: %lu byte(s)\n", (unsigned long) sizeof(b));
+printf("size of a long int: %lu  byte(s)\n", (unsigned long) sizeof(c));
+printf("size of a long long int: %lu byte(s)\n", (unsigned long) sizeof(d));
+printf("size of float: %lu byte(s)\n", (unsigned long) sizeof(f));
+retuen (0);
 }
