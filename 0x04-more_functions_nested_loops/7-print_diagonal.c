@@ -19,7 +19,7 @@ for (j = 0; j < n; j++)
 {
 if (j == i)
 _putchar('\\');
-else
+else if (j < i)
 _putchar(' ');
 }
 _putchar('\n');
