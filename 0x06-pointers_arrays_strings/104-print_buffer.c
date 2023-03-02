@@ -31,9 +31,6 @@ if (i % 2)
 {
 printf(" ");
 }
-{
-printf(" ");
-}
 }
 for (i = 0; i < j; i++)
 {
