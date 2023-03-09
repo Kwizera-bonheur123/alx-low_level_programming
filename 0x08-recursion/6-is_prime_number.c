@@ -25,7 +25,7 @@ return (actual_prime(n, n - 1));
 
 int actual_prime(int n, int i)
 {
-if (i == 0)
+if (i == 1)
 return (1);
 if (n % i == 0 && i > 0)
 return (0);
